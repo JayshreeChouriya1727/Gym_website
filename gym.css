@@ -1,0 +1,264 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width:100%;
+    height:100%;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*_____________________________start navigtation_____________________________________*/
+
+.header .menubar .navbar{
+    padding:1rem 5rem;
+}
+.header .menubar .navbar .nav-item .nav-link{
+    font-weight: 500;
+    padding-left:1.2rem;
+    padding-right:1.2rem;
+    color:white;
+
+}
+.header .menubar .navbar .nav-item .nav-link:hover{
+    color:red;
+}
+/*_________________________________end navigation__________________________________*/
+/*_________________________________start banner____________________________________*/
+
+#banner{
+    background: url("Image/fitness-1882721_1280.jpg");
+    width:100%;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+     text-align:center;
+     position:relative;
+} 
+.center-div{
+    width:100%;
+    height:auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    color:white;
+    transform:translate(-50%,-50%);
+    display: inline-block;
+    text-align: center;
+    
+}   
+#banner .center-div h1{
+    font-size:70px;
+} 
+#banner span{
+    font-size: 40px;
+}
+#banner .container h3 span:before{
+    display:inline-block;
+    white-space:nowrap;
+    content:'';
+    animation:animate infinite 5s;
+}
+@keyframes animate{
+    0%{
+        color:rgb(255, 0, 0);
+        content:'BODY';
+    }
+    40%{
+        color:cyan;
+        content:'MUSCLES';
+    }
+    50%{
+        color:yellow;
+        content:'PERSONALITY';
+    }
+}
+/*__________________________________end banner__________________________________*/
+/*___________________________________start about________________________________*/
+#about{
+    width:100%;
+    padding-top:3rem;
+    padding-bottom:5rem;
+    border:1px solid black;
+    overflow: hidden;
+}
+#about .about-img{
+    min-width: 50%;
+}
+
+
+#about .about-img{
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}  
+
+
+
+/*__________________________________end about____________________________________*/
+
+/*_______________________________start Membership________________________________*/
+
+#membership{
+    width:100%;
+    height:auto;
+    background-color: grey;
+    padding-top:70px;
+    padding-bottom:50px;
+    overflow:hidden;
+}
+#membership .card{
+    box-shadow: 5px 0px 10px rgb(0, 0, 0);
+}
+#membership .Ani{
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+/*_________________________________end Membership________________________________*/
+
+/*_________________________________start program__________________________________*/
+
+#Program{
+    width:100%;
+    height:auto;
+}
+
+/*__________________________________end program____________________________________*/
+/*_________________________________start sponsour________________________________*/
+
+#sponsour{
+    width:100%;
+    height:auto;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom:50px;
+    background: grey;
+}
+
+#sponsour img{
+    margin:2px;
+}
+/*__________________________________end sponsour___________________________________*/
+
+/*__________________________________ start team_______________________________________*/
+
+#team{
+    width:100%;
+    height:auto;
+    padding-top:20px;
+    padding-bottom: 70px;
+    background:url("Image/wood-1759566_1280.jpg");
+    justify-content: center;  
+}
+#team .card{
+    border-radius: 50%;
+    position: relative;
+}
+#team img{
+    border-radius: 50%;
+    position:relative;
+    display:block;
+}
+#team .title{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    opacity:0;
+    
+
+}
+#team .title:hover{
+    opacity:1;
+}
+#team .title a{
+    height:50px;
+    width:50px;
+    background-color:black;
+    border-radius:50%;
+    line-height:45px;
+    margin:5px;
+}
+
+#team .fa-facebook-f{
+    color:white;
+}
+#team .fa-envelope{
+    color:white;
+}
+#team .fa-phone-alt {
+    color:white;
+}
+
+
+/*__________________________________________end team___________________________________*/
+/*______________________________________ start contact_________________________________*/
+
+.contact-form{
+    background:black;
+    color:white;
+    padding:20px;   
+}
+#contact{
+    background:url("Image/cross-fit-1126999_1280.jpg");
+    padding-top:80px;
+    padding-bottom:80px;
+    width:100%;
+}
+
+#contact .fa-envelope{
+    color:white;
+}
+/*______________________________________end contact_____________________________________*/
+
+/*___________________________________start developer____________________________________*/
+
+#developer{
+    width:100%;
+    height: auto;
+    padding-top:70px;
+    padding-bottom:70px;
+    text-align: center;
+    background:url("Image/wood-1759566_1280.jpg");
+}
+#developer img{
+    border-radius: 50%;
+
+}
+
+/*___________________________________end developer__________________________________________*/
+
+/*___________________________________start gallery___________________________________________*/
+#gallery{
+    background-color: rgb(9, 9, 32);
+    color:white;
+    padding-top:80px;
+    padding-bottom:50px;    
+}
+#gallery .img-fluid:hover{
+    border-radius: 50%;   
+}
+#gallery .container{
+    background-color:white;
+}
+/*_______________________________________________end gallery______________________________________________*/
+/*___________________________________________ start footer________________________________________________*/
+
+#footer{
+    border-top:2px solid grey;
+    width:100%;
+    padding-top:50px;
+}
+.copyright{
+    background-color:rgb(53, 48, 48);
+    color:white;
+    font-size: 16px;   
+    padding-top:20px;
+    padding-bottom:20px; 
+}
+
+/*____________________________________________end footer__________________________________________________*/
